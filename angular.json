@@ -99,23 +99,23 @@
         }
       }
     },
-    "@linch90/precede-char": {
+    "@linch90/precede-char-directive": {
       "projectType": "library",
-      "root": "projects/precede-char",
-      "sourceRoot": "projects/precede-char/src",
+      "root": "projects/precede-char-directive",
+      "sourceRoot": "projects/precede-char-directive/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/precede-char/ng-package.json"
+            "project": "projects/precede-char-directive/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/precede-char/tsconfig.lib.prod.json"
+              "tsConfig": "projects/precede-char-directive/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/precede-char/tsconfig.lib.json"
+              "tsConfig": "projects/precede-char-directive/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -123,9 +123,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/precede-char/src/test.ts",
-            "tsConfig": "projects/precede-char/tsconfig.spec.json",
-            "karmaConfig": "projects/precede-char/karma.conf.js"
+            "main": "projects/precede-char-directive/src/test.ts",
+            "tsConfig": "projects/precede-char-directive/tsconfig.spec.json",
+            "karmaConfig": "projects/precede-char-directive/karma.conf.js"
           }
         }
       }

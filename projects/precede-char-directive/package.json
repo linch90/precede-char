@@ -1,5 +1,5 @@
 {
-  "name": "@linch90/precede-char",
+  "name": "@linch90/precede-char-directive",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^14.2.0",

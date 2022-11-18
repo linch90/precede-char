@@ -17,7 +17,9 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "@linch90/precede-char": ["projects/precede-char/src/public-api.ts"]
+      "@linch90/precede-char-directive": [
+        "projects/precede-char-directive/src/public-api.ts"
+      ]
     },
     "target": "es2020",
     "module": "es2020",

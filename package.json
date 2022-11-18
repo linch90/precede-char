@@ -1,5 +1,5 @@
 {
-  "name": "precede-char",
+  "name": "precede-char-directive",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
