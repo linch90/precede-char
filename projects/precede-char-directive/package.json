@@ -1,6 +1,17 @@
 {
   "name": "@linch90/precede-char-directive",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "homepage": "https://www.unihanlin.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linch90/precede-char-directive.git"
+  },
+  "author": {
+    "name": "linch90;晗林科技",
+    "email": "chuzhilin@unihanlin.com"
+  },
+  "description": "A angular directive to put a specified char before the inputing text.",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^14.2.0",
     "@angular/core": "^14.2.0"
